@@ -1,0 +1,38 @@
+h1 {
+    color: #000000;
+    padding:50px;
+}
+
+ *{
+    border: solid;
+}
+
+.Heading{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between
+}
+
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description{
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-image: url("bg.jpeg");
+    background-position: top;
+   
+}
